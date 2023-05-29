@@ -5,8 +5,11 @@ int main()
    printf("Enter a year: ");
    scanf("%d", &year);
 
+ nbsbdnmsd
+ bsajdhas
+ nasjdsak
    // leap year if perfectly divisible by 400
-   if (year % 400 == 0) {
+   if (year % 4 == 0) {
       printf("%d is a leap year.", year);
    }
    // not a leap year if divisible by 100
